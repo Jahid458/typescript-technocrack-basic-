@@ -20,10 +20,12 @@ type Coordinates<X,Y> = [X,Y]
 const coordinates1:Coordinates<number,number> = [20,30]
 const coordinates2:Coordinates<string,string> = ['20','30']
 
+type User = {name: string,age:number}
+
 
 //Object Generics
 
-const userList:GenericArray<{name: string,age:number}> = [
+const userList:GenericArray<User> = [
     {
         name: 'Mr. X',
         age: 54
