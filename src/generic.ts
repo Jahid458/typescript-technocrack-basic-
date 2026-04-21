@@ -24,7 +24,6 @@ type User = {name: string,age:number}
 
 
 //Object Generics
-
 const userList:GenericArray<User> = [
     {
         name: 'Mr. X',
