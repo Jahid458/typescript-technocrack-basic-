@@ -1,4 +1,4 @@
-// enumL a seyt of fixed string leteral ek jaigai rakhe 
+// enum a seyt of fixed string leteral ek jaigai rakhe 
 
 // type UserRoles = "Admin" | "Editor" | "Viewer" ;
 
@@ -14,5 +14,5 @@ const canEdit = (role:UserRoles) => {
      }else return false
 }
 
-const isEditPermissible = canEdit("Admin")
+const isEditPermissible = canEdit(UserRoles.Admin)
 console.log(isEditPermissible)
